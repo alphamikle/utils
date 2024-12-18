@@ -12,7 +12,7 @@ else
 fi
 
 echo "Running dart format..."
-dart format .
+dart format . -l 160
 
 echo "Running pana..."
 pana --exit-code-threshold 0
