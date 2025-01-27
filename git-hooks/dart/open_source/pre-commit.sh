@@ -14,6 +14,9 @@ fi
 echo "Running dart format..."
 dart format . -l
 
+echo "Installing pana..."
+dart pub global activate pana
+
 echo "Running pana..."
 pana --exit-code-threshold 0
 
